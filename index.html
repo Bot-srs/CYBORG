@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBORG HUB</title>
+    <!-- THIS BELOW LINK IS FOR SMOOTH SCROLLING TAKEN FROM :locomotive-scroll CDN files - jsDelivr(1ST LINK COPY & PASTE) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="loco.css">
+</head>
+
+<body>
+    <div id="main" data-scroll-container>
+        <!--data-scrool-container is optional ,without it there will be smooth scrolling ,BUT #main IS IMPPORTANT-->
+        <div id="page1" data-scroll>
+            <!-- <h1>CYBORG</h1>
+            <h3>creating a new world</h3> -->
+        </div>
+        <div id="page2" data-scroll data-scroll-speed="-2">
+            <!--data-scroll is to make the page contents even more smoother-->
+            <img data-scroll data-scroll-speed="4"
+                src="https://media.istockphoto.com/id/1201601427/photo/african-american-young-woman-in-vr-glasses-watching-360-degree-video-with-a-virtual-reality.jpg?s=612x612&w=0&k=20&c=g6-jqFDoVe_xiY5DrOjbGJc7IJFBVag3ifKdvbCsjrE=" />
+            <img data-scroll data-scroll-speed="4" data-scroll-direcytion="vertical"
+                src="https://media.istockphoto.com/id/1363756923/photo/portrait-of-man-with-headphones-on-neck-in-neon-lights-on-dark-background.jpg?s=612x612&w=0&k=20&c=g8QVKgyyahmVBjH-077xZP7T8qTcufnWuHqQp3oA41A=">
+            <!--data-scroll and speed is given to the image for smooth experience-->
+        </div>
+
+        <div id="page3" data-scroll data-scroll-speed="-0.6">
+            <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-79"
+                src="https://img.freepik.com/premium-photo/cyberpunk-girl-woman-neon-background_148391-8044.jpg">
+            <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="23"
+                src="https://storage.googleapis.com/pai-images/58ea2aa94e3f45ec9a9aba9b79cb1525.jpeg">
+
+        </div>
+    </div>
+    <!-- BELOW LINK IS FOR SMOOTH SCROLLING TAKEN FROM :- locomotive-scroll CDN files - jsDelivr (3RD LINK COPY & PASTE HERE USING A SCRIPT TAG) -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="loco.js"></script>
+</body>
+
+</html>
