@@ -148,6 +148,11 @@ h3 {
     
 }
 
+.buttonC:active {
+    border: 5px solid rgb(0, 221, 255);
+    box-shadow:5px 5px 50px rgb(0, 221, 255);
+}
+
 .button {
     margin-left: 47%;
     width: 50px;
@@ -157,6 +162,11 @@ h3 {
 .char:hover {
     box-shadow: 5px 5px 50px  red;
   }
+
+.charname {
+    display: inline;
+    position: absolute;
+}
 
 .CYC {
     width: 100%;
@@ -176,6 +186,7 @@ h3 {
 .charname {
     object-position: center;
     margin-left: 160px;
+    
 }
 
 body {
